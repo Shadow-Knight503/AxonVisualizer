@@ -1,0 +1,10 @@
+[
+ {"from": "Categories-1","to": "Products-1","label": "SharedProductDetail"},
+ {"from": "Categories-1","to": "Products-2","label": "SharedProductDetail"},
+ {"from": "Categories-1","to": "Products-3","label": "SharedProductDetail"},
+ {"from": "Categories-3","to": "Products-4","label": "SharedProductDetail"},
+ {"from": "Categories-3","to": "Products-5","label": "SharedProductDetail"},
+ {"from": "Categories-3","to": "Products-6","label": "SharedProductDetail"},
+ {"from": "Categories-2","to": "Products-7","label": "SharedProductDetail"},
+ {"from": "Categories-2","to": "Products-8","label": "SharedProductDetail"}
+]
