@@ -214,7 +214,7 @@ def build_network_html(data, view_mode="relation"):
 <body>
     <div id="toolbar">
         <button class="tool-btn" onclick="toggleDrawer()">📁 Locator</button>
-        <button id="physics-toggle" class="tool-btn" onclick="togglePhysics()">Freeze: OFF</button>
+        <button id="physics-toggle" class="tool-btn" onclick="togglePhysics()">Floating: OFF</button>
         <!-- Clean safe internal navigation URL command -->
         <button id="mode-toggle" class="{mode_btn_class}" onclick="window.location.href = 'pycommand://toggle_mode';">{mode_btn_text}</button>
         <div class="color-picker-group">
@@ -294,10 +294,10 @@ def build_network_html(data, view_mode="relation"):
             network.setOptions({{ physics: physicsEnabled }});
             let btn = document.getElementById('physics-toggle');
             if (physicsEnabled) {{
-                btn.innerText = "Freeze: OFF";
+                btn.innerText = "Floating: OFF";
                 btn.classList.remove('frozen');
             }} else {{
-                btn.innerText = "Freeze: ON";
+                btn.innerText = "Floating: ON";
                 btn.classList.add('frozen');
             }}
         }}
